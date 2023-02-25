@@ -40,6 +40,7 @@ a {
     height: 267.3px;
     border: black 1px solid;
     margin-left: 100px;
+    margin-bottom: 100px;
     padding-top: 10px;
     transition: 0.5s;
 }
