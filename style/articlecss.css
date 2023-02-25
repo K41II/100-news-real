@@ -1,0 +1,59 @@
+.title{
+    font-size: 1.5em;
+    font-weight: 520;
+    text-align: center;
+}
+
+.art{
+    /*margin-left: 200px;
+    margin-right: 400px;*/
+    margin: 250px;
+    margin-top: 0px;
+}
+
+.s{
+    background-image: url("./photos/chris.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+@media(min-width:1080){
+    #chris{
+        width: 60%;
+    }
+}
+@media(max-width:1080px){
+    .art{
+    /*margin-left: 200px;
+    margin-right: 400px;*/
+    margin: 100px;
+    margin-top: 0px;
+    }
+    #chris{
+        width:60%;
+    }
+}
+
+@media(max-width:900px){
+    .art{
+    /*margin-left: 200px;
+    margin-right: 400px;*/
+    margin: 100px;
+    margin-top: 0px;
+    }
+}
+
+@media(max-width:500px){
+    .art{
+    /*margin-left: 200px;
+    margin-right: 400px;*/
+    margin: 50px;
+    margin-top: 0px;
+    }
+}
+
+.backBtn{
+    background: none;
+}

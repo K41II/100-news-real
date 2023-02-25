@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*     width: 30%; */
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+#replitBadge {
+    display: none;
+}
+
+a .articles h2 {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.row-cols-3 .col {
+    width: 300px;
+    height: 267.3px;
+    border: black 1px solid;
+    margin-left: 100px;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.row-cols-3 .col:hover {
+    box-shadow: 1px 5px 9px #888888;
+}
+
+.row-cols-3 .col img {
+    width: 298.35px;
+    position: relative;
+    right: 12px;
+}
